@@ -1,4 +1,4 @@
-package com.example.classwork;
+package com.example.model;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CarAppApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(CarAppApplication.class, args);
 	}
 

@@ -1,4 +1,4 @@
-package com.example.classwork;
+package com.example.model.model;
 
 public class Car {
     private String make;
@@ -54,5 +54,16 @@ public class Car {
 
     public void setMiles(int miles) {
         this.miles = miles;
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", price=" + price +
+                ", color='" + color + '\'' +
+                ", miles=" + miles +
+                '}';
     }
 }
